@@ -1,1 +1,0 @@
-import{aV as e,aZ as o,a_ as s}from"./index-7dfdb274.js";class r extends e{constructor(t){super({...t,constraint:new o(t.coordinateHelper,t.targetPoint)})}get hints(){return[new s(this.targetPoint,this.elevationInfo,this.domain)]}}export{r as o};
