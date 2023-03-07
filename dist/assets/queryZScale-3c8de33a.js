@@ -1,0 +1,1 @@
+import{t as i}from"./typedArrayUtil-d9bc5fbd.js";import{o as m}from"./zscale-48bab05e.js";function a(r,t,e){if(!e||!e.features||!e.hasZ)return;const o=m(e.geometryType,t,r.outSpatialReference);if(!i(o))for(const f of e.features)o(f.geometry)}export{a as r};
